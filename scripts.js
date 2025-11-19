@@ -1,5 +1,14 @@
 function adicionarTarefa() {
-    let input = document.querySelector("input")
+    let Tarefa = document.querySelector("input").value
 
-    console.log(input.value)
+    let li = document.createElement("li")
+    li.innerHTML = Tarefa + '<span onclick="deletarTarefa"()>❌</span>'
+    
+    document.querySelector("ul").appendChild(li)
+
+    valorDoInput = ""
+}
+
+function deletarTarefa() {
+    console.log('funcionou')
 }
