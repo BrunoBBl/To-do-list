@@ -1,1 +1,5 @@
-console.log("deu bom")
+function adicionarTarefa() {
+    let input = document.querySelector("input")
+
+    console.log(input.value)
+}
