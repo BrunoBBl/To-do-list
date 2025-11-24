@@ -11,4 +11,6 @@ function adicionarTarefa() {
 
 function deletarTarefa(li) {
     li.parentElement.remove()
-}
+}  
+
+// código com função de deletar tarefa
